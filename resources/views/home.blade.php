@@ -32,9 +32,8 @@
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
     </nav>
-    {{Auth()->user()->can('view',\App\User::class)}}
+    {{Auth()->user()->can('view', \App\User::class)}}
     @if(Auth()->user()->can('view',\App\User::class))
 Users
     @endif
-asdadsdsa
 @endif

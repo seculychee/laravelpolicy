@@ -2,6 +2,8 @@
 
 namespace App;
 
+use App\Models\User\Role;
+use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Foundation\Auth\User as Authenticatable;
@@ -32,7 +34,7 @@ class User extends Authenticatable
      *
      * @param Role $role
      */
-    public function addRole (Role $role) {
+    public function addRole (Role $role = null) {
 
         if (!$this->hasRole($role)) {
 
