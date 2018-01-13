@@ -2,25 +2,25 @@
 
 **Elkészített állományok:**
 
-**Modelek:**
-app/Model
-app/User.php
+**Modelek:**<br>
+app\Model<br>
+app\User.php
 
-**Policies:**
-app/Policies
+**Policies:**<br>
+app\Policies<br>
 
-**Migration:**
+**Migration:**<br>
 database\migrations\2014_10_12_000000_create_users_table
 
-**Seed:**
-database\seeds\RoleSeeder.php
-database\seeds\UserSeeder.php
+**Seed:**<br>
+database\seeds\RoleSeeder.php<br>
+database\seeds\UserSeeder.php<br>
 
-**Route:**
-routes\web.php
+**Route:**<br>
+routes\web.php<br>
 
-**View:**
-resources\views
+**View:**<br>
+resources\views<br>
 
 **Telepítés lépései:**
 
