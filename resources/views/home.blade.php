@@ -1,3 +1,5 @@
+@extends("master")
+@section("mainContent")
 @if(Auth::check())
     <nav class="navbar navbar-default">
         <div class="container-fluid">
@@ -37,3 +39,4 @@
 Users
     @endif
 @endif
+@endsection
